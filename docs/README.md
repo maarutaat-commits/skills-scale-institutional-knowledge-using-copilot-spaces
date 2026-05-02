@@ -1,0 +1,7 @@
+# OctoAcme Project Management Overview
+
+This repository contains the OctoAcme project management guidance used across cross-functional projects. OctoAcme follows a customer-first, iterative delivery model with clear ownership and data-informed decisions. Projects move through Initiation (validate need and stakeholders), Planning (break into shippable increments with acceptance criteria), Execution (daily standups, CI-driven work), Release (standardized deployment and rollback plans), and Retrospective (actionable improvements and follow-up).
+
+Core roles include Project Managers who coordinate delivery, Product Managers who define outcomes and prioritize the backlog, Developers who build and maintain code and tests, and QA who validate acceptance criteria. Communication follows a regular cadence: PM+PdM weekly syncs, twice-weekly or daily team standups, and monthly stakeholder updates. A single-source-of-truth document (project README or release notes) keeps stakeholders aligned.
+
+Quality assurance is embedded in the workflow via automated tests and linting in CI, security scans, small pull requests with required approvals, and manual QA and smoke tests for critical flows. Release checklists enforce pre-release requirements (passing CI, release notes, rollback plan) and post-deploy verifications. Retrospectives capture 2–3 prioritized action items and feed them into the backlog to close the improvement loop.
